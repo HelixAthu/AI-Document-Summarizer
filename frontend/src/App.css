@@ -1,6 +1,6 @@
 body
 {
-  background-image: radial-gradient(circle at bottom, purple 0%, black 50%);
+  background-color: black;
   height: 100dvh;
   width: 100dvw;
   overflow: hidden;
@@ -12,8 +12,9 @@ body
 #wrapper
 {
   background-color: lightgray;
-  padding: 20px 50px;
-  max-width: 45em;
+  padding: 1.2em 2.5em;
+  margin-right: 1em;
+  max-width: 40em;
   font-family:'Courier New', Courier, monospace;
   border-radius: 1em;
   background-color: rgba(255, 255, 255, 0.1);
@@ -87,7 +88,16 @@ input[type="file"]::file-selector-button
   box-shadow: inset 0 0 1em rgba(241, 249, 0, 0.46);
 }
 
-@media (max-width: 600px)
+.animatedGradient
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(5em);
+}
+
+@media (max-width: 700px)
 {
   .mainLayout
   {
