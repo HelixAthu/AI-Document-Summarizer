@@ -108,13 +108,13 @@ npm run dev
 
 ---
 
-🌱 Build-in-Public
+# 🌱 Build-in-Public
 I’m documenting the entire journey on LinkedIn—sharing progress, lessons learned, and challenges along the way.
 Stay tuned for updates and improvements!
 
 ---
 
-🤝 Contributing
+# 🤝 Contributing
 This project is for personal and educational purposes only.
 
 Commercial use is not allowed.
@@ -123,11 +123,11 @@ If you use or adapt any part of this project, please give proper credit to the o
 
 ---
 
-📜 License
+# 📜 License
 MIT License with the following conditions:
 
 Free to use, modify, and share for personal and educational purposes only.
 
 Commercial use is prohibited.
 
-Proper credit must be given if code is reused or adapted.
+Proper credit must be given if code is reused or adapted or refferred to.
