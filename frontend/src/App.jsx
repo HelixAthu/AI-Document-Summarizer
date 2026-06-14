@@ -24,7 +24,7 @@ const App = () => {
 
     try
     {
-      const res = await axios.post("http://localhost:5000/summarize", formData, {
+      const res = await axios.post("https://ai-document-summarizer-production.up.railway.app/summarize", formData, {
         headers: {"Content-Type": "multipart/form-data"}
       })
       setSummary(res.data.summary)
